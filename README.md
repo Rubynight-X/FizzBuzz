@@ -56,7 +56,7 @@ which enables basic typesetting when viewed while still being a plaintext format
 editing and version control.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] (with no spaces) to mark this as done!
+- [x] Put an X in the [ ] (with no spaces) to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -78,7 +78,7 @@ and output exactly one of the following:
 * If `i` is divisible by 3 and 5, print the string `Fizz Buzz` (note the space)
 * Otherwise, print the value of `i`
 
-- [ ] Try a short game of Fizz Buzz with your team now.
+- [x] Try a short game of Fizz Buzz with your team now.
 
 ---
 <details>
@@ -141,7 +141,7 @@ class FizzBuzz {
 
 What is the last string that the program will print?
 
-- [ ] Open [`src/lab1/FizzBuzz.java`](src/lab1/FizzBuzz.java) and click the run button in the top left corner to run `FizzBuzz` to check your answer.
+- [x] Open [`src/lab1/FizzBuzz.java`](src/lab1/FizzBuzz.java) and click the run button in the top left corner to run `FizzBuzz` to check your answer.
 
 After you have run FizzBuzz once, you may notice that a green play button appears beside FizzBuzz on the above line.
 This is a feature of IntelliJ. Running the program generates a run configuration; when IntelliJ
@@ -165,7 +165,7 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you; then compare your observations
+- [x] Make note of any specific Java syntax which stands out to you; then compare your observations
 with the rest of your team. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
 
@@ -189,7 +189,7 @@ method `main` in the file you choose to run.
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [x] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -210,7 +210,7 @@ test the calculation for several interesting numbers more easily though.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`, and press Enter.
 
-- [ ] Rerun the program to verify that it still works.
+- [x] Rerun the program to verify that it still works.
 
 > Note: Recall that in Python we were in the habit of defining helpers with a leading underscore to mark them as being
 > private — only to be called by the method using it as a helper and not by anyone outside the class. IntelliJ has done
@@ -221,7 +221,7 @@ test the calculation for several interesting numbers more easily though.
 
 Now that you've made some edits to your code, you should use git to save these changes to your local repository and then upload them to GitHub.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
+- [x] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
   modified `FizzBuzz.java` (and possibly this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
