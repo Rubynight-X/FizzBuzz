@@ -3,6 +3,10 @@ package lab1;
 public class Multiples {
     public static void main(String[] args){
 
+        System.out.println(multiples());
+    }
+
+    private static int multiples() {
         int multiplesOf3 = 0;
         int multiplesOf5 = 0;
         int multiplesOf3and5 = 0;
@@ -20,7 +24,6 @@ public class Multiples {
             }
         }
 
-        int multiplesOf3or5 = multiplesOf3 + multiplesOf5 + multiplesOf3and5;
-        System.out.println(multiplesOf3or5);
+        return multiplesOf3 + multiplesOf5 + multiplesOf3and5;
     }
 }

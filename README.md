@@ -381,7 +381,7 @@ is happy with their own code for this.
 
 Now, let's modify your code so that it is easy to test.
 
-- [ ] Extract a method from `Multiples.main` that will return
+- [x] Extract a method from `Multiples.main` that will return
   the answer, call it `multiples`. The answer should still be printed in your `Multiples.main` method.
   After you do this, your `Multiples.main` method should look something like:
 
@@ -393,7 +393,7 @@ System.out.println(count);
 > In order to later test the `multiples` method, we will need to change the access modifier on your
 > extracted method. To do this, you can remove the `private` keyword.
 
-- [ ] Right-click the first line and choose `Refactor->Inline Variable` to
+- [x] Right-click the first line and choose `Refactor->Inline Variable` to
   further simplify the method body to just one line of code.
 
 > Something to think about: is code _more_ or _less_ readable when we inline variables in this way?
