@@ -25,4 +25,8 @@ public class Multiples {
 
         return multiplesOfA + multiplesOfB + multiplesOfAandB;
     }
+
+    public static int multiples() {
+        return multiples(1000, 3, 5);
+    }
 }
