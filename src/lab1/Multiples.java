@@ -2,28 +2,27 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] args){
-
-        System.out.println(multiples());
+        System.out.println(multiples(1000, 3, 5));
     }
 
-    private static int multiples() {
-        int multiplesOf3 = 0;
-        int multiplesOf5 = 0;
-        int multiplesOf3and5 = 0;
+    public static int multiples(int n, int a, int b) {
+        int multiplesOfA = 0;
+        int multiplesOfB = 0;
+        int multiplesOfAandB = 0;
 
-        for (int i = 1; i < 1000; i++) {
-            boolean divisibleBy3 = i % 3 == 0;
-            boolean divisibleBy5 = i % 5 == 0;
+        for (int i = 1; i < n; i++) {
+            boolean divisibleByA = i % a == 0;
+            boolean divisibleByB = i % b == 0;
 
-            if (divisibleBy3 && divisibleBy5) {
-                multiplesOf3and5 += 1;
-            } else if (divisibleBy3) {
-                multiplesOf3 += 1;
-            } else if (divisibleBy5) {
-                multiplesOf5 += 1;
+            if (divisibleByA && divisibleByB) {
+                multiplesOfAandB += 1;
+            } else if (divisibleByA) {
+                multiplesOfA += 1;
+            } else if (divisibleByB) {
+                multiplesOfB += 1;
             }
         }
 
-        return multiplesOf3 + multiplesOf5 + multiplesOf3and5;
+        return multiplesOfA + multiplesOfB + multiplesOfAandB;
     }
 }
