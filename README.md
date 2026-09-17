@@ -466,7 +466,7 @@ and run the tests in it to check your work — debugging `MultiplesTest` as need
 
 Here is one more small coding problem similar to the Multiples problem for extra practice.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Reduce`.
+- [x] Right-click on `lab1` and select `New —> Java Class`. Name it `Reduce`.
 
 Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
 
@@ -474,7 +474,7 @@ For example, if you start with n = 2, the answer is 2.
 
 > Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
 
-- [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
+- [x] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
   Add this file to your project, commit, and push.
 
 - [ ] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
