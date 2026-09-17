@@ -477,13 +477,13 @@ For example, if you start with n = 2, the answer is 2.
 - [x] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
   Add this file to your project, commit, and push.
 
-- [ ] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
+- [x] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
 a helper method called `reduce`. Then generalize that helper to take in `n` as a parameter.
 
 Once you complete these steps, you can copy the `ReduceTest.java` file into the `test/lab1` directory
 and run the tests — debugging as needed.
 
-- [ ] Finally, `add`, `commit`, and `push` your `Reduce.java`.
+- [x] Finally, `add`, `commit`, and `push` your `Reduce.java`.
 
 ## Further practice
 
