@@ -10,6 +10,8 @@ public class Multiples {
         int multiplesOfB = 0;
         int multiplesOfAandB = 0;
 
+        // can implement an alternative solution with constant runtime by
+        // computing (floor of n/3 + floor of n/5 - floor of n/15)
         for (int i = 1; i < n; i++) {
             boolean divisibleByA = i % a == 0;
             boolean divisibleByB = i % b == 0;
